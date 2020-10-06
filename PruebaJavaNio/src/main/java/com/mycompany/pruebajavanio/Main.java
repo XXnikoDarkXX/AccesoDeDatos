@@ -6,6 +6,7 @@
 package com.mycompany.pruebajavanio;
 
 import java.io.IOException;
+import java.nio.file.DirectoryStream;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
@@ -48,13 +49,50 @@ public class Main {
         
         System.out.println("Existe actual? "+ Files.exists(actual));
         try {
-        //    Files.createDirectories(actual);//crea unos directorios sin importar si estan creados o no las carpetas
+            if (!Files.exists(actual)) {
+                Files.createDirectories(actual);//crea unos directorios sin importar si estan creados o no las carpetas
             //puede suponer un peligro pues podemos crear carpetas sin saberlo
-            Files.createDirectory(actual);//Con este método si tenemos creadas la carpetas 
+            //Files.createDirectory(actual);//Con este método si tenemos creadas la carpetas 
+                System.out.println("Carpeta actual creada");
+                Files.createFile(fs.getPath(actual.toString(),"prueba.txt"));//creamos un txt
+            }else{
+                System.out.println("Informacion de la carpeta "+actual);
+                System.out.println("Ultima modificacion: "+Files.getLastModifiedTime(actual));
+                System.out.println("Usuario: "+Files.getOwner(actual));
+                System.out.println("Tamaño: "+(Files.size(actual)*(1024))+" MB");
+                 Path carpetaImagenes=fs.getPath("Imágenes"+fs.getSeparator()+"jpg/test");
+                //System.out.println(borrarCarpeta(carpetaImagenes));
+           // Files.delete(carpetaImagenes);//borramos la carpeta test pero solo si no hay nada dentro
+                System.out.println("Carpeta test borrado");
+                //Para poder borrar la carpeta test podemos hacerlo mediante un for 
+                
+              
+               Files.delete(carpetaImagenes);//borramos la carpeta test pero solo si no hay nada dentro
+            }
             
+            
+            
+           
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
+         
        }
+    public static void borrarCarpeta(Path carpeta){
+        String res="";
+        try {
+            
+        DirectoryStream<Path> hijosActual=Files.newDirectoryStream(carpeta);
+                for (Path entry:carpeta){
+            res+="Borrando "+entry+"\n";
+               
+                Files.delete(entry);
+           
+                }
+
+                 } catch (IOException ex) {
+                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            }
+    }
 
 }

@@ -27,28 +27,29 @@ public class BorrarCrearCarpetas {
     
        
         FileSystem fs=FileSystems.getDefault();
-        Path actual=fs.getPath("imagenes/jpg/patata");
+        Path actual=fs.getPath("imagenes/jpg/patata");//creamos una ruta hasta patata
         
         System.out.println(actual.toAbsolutePath());
         try{
-            if(!Files.exists(actual)){
-                Files.createDirectories(actual);
+            if(!Files.exists(actual)){//si patata NO existe
+                Files.createDirectories(actual);//creamos patata
                 System.out.println(actual.toAbsolutePath());
                 
                 System.out.println("Carpeta patata y su contenido creados.");
+                //vamos creando cosillas como documentos de texto, exe, sql word etc...
                 Files.createFile(fs.getPath(actual.toString(),"prueba 1.txt"));
                 Files.createFile(fs.getPath(actual.toString(),"prueba 2.exe"));
                 Files.createFile(fs.getPath(actual.toString(),"prueba 3.doc"));
                 Files.createFile(fs.getPath(actual.toString(),"prueba 4.bat"));
                 Files.createFile(fs.getPath(actual.toString(),"prueba 5.sql"));
-                Files.createDirectories(fs.getPath(actual.toString(), "carpeta hija"));
-               Files.createFile(fs.getPath(actual.toString(), "carpeta hija/archivo nieto.txt"));
+                Files.createDirectories(fs.getPath(actual.toString(), "carpeta hija"));//creamos una carpeta
+               Files.createFile(fs.getPath(actual.toString(), "carpeta hija/archivo nieto.txt"));//le metemos un txt a la carpeta
             }else{
-                System.out.println("Información de la carpeta "+actual);
+                System.out.println("Información de la carpeta "+actual);//nos da la informacion de la carpeta
                 System.out.println("Última modificación: "+Files.getLastModifiedTime(actual));
                 System.out.println("Usuario: "+Files.getOwner(actual));
                 System.out.println("Tamaño: "+(Files.size(actual)/(1024*1024))+" MB");
-                System.out.println(borrarCarpeta(actual));
+                System.out.println(borrarCarpeta(actual));//hacemos borrar carpeta
             }
                 
         }catch (java.nio.file.DirectoryNotEmptyException e){

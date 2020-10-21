@@ -30,22 +30,37 @@ public class MainFLujo {
        BufferedReader br=null;
         try {
             
-            
+          /*  
             FileSystem fs=FileSystems.getDefault();
             Path actual=fs.getPath("prueba.txt");
             br = new BufferedReader(
+                    new FileReader(actual.toString()));//creamos una clase Reader para leer fichero en caracteres
+            //y le añadimos un buffer 
+             BufferedReader br2=new BufferedReader(
                     new FileReader(actual.toString()));
-            
+             
             System.out.println(actual.toAbsolutePath());
             Stream<String> st=br.lines();//lo llena
-            Stream <String> st2=br.lines();
+            Stream <String> st2=br2.lines();
            
-            System.out.println(st.toArray()[0]);//to array lo consume es como un buffer que va consumiendo  y sacando letra  a letra el texto
-             
+          // System.out.println(st.toArray()[0]);//to array lo consume es como un buffer que va consumiendo  y sacando letra  a letra el texto
+              System.out.println("tamaño: "+st.toArray().length);
             System.out.println("tamaño: "+st2.toArray().length);
+
             
-        
-        
+        */
+         FileSystem fs=FileSystems.getDefault();
+            Path actual=fs.getPath("prueba.txt");
+             br = new BufferedReader(
+                    new FileReader(actual.toString()));
+            Stream<String> st=br.lines();
+            System.out.println("tamaño: "+st.toArray().length);
+            br.close();//lo cerramos para poder hacer otro stream
+            br = new BufferedReader(
+                    new FileReader(actual.toString()));
+            Stream<String> st2=br.lines();
+            System.out.println("tamaño: "+st2.toArray().length);
+
         } catch (FileNotFoundException ex) {
            
         } catch (IOException ex) {

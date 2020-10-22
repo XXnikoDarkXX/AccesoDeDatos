@@ -1,0 +1,30 @@
+10'Archivos mas pequeños 
+--------------------------
+
+C:\Program Files\Java\jre1.8.0_251\lib\security\trusted.libraries Tamaño 0.0MB
+C:\Program Files\Java\jdk1.8.0_231\lib\visualvm\etc\visualvm.clusters Tamaño 0.0MB
+C:\Program Files\Java\jdk-13\lib\jvm.cfg Tamaño 0.0MB
+C:\Program Files\Java\jdk-13\legal\jdk.zipfs\LICENSE Tamaño 0.0MB
+C:\Program Files\Java\jdk-13\legal\jdk.zipfs\COPYRIGHT Tamaño 0.0MB
+C:\Program Files\Java\jdk1.8.0_231\lib\visualvm\profiler\VERSION.txt Tamaño 0.0MB
+C:\Program Files\Java\jre1.8.0_251\LICENSE Tamaño 0.0MB
+C:\Program Files\Java\jre1.8.0_251\README.txt Tamaño 0.0MB
+C:\Program Files\Java\jre1.8.0_251\lib\javafx.properties Tamaño 0.0MB
+C:\Program Files\Java\jdk1.8.0_231\lib\missioncontrol\features\org.eclipse.emf.ecore_2.10.1.v20140901-1043\META-INF\eclipse.inf Tamaño 0.0MB
+
+Archivos Mas grandes 
+---------------------
+C:\Program Files\Java\jdk-12.0.2_windows-x64_bin.exe Tamaño 80.2529296875MB
+C:\Program Files\Java\jdk-13\lib\modules Tamaño 66.8525390625MB
+C:\Program Files\Java\jdk-12.0.2\lib\modules Tamaño 66.34375MB
+C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar Tamaño 30.7421875MB
+C:\Program Files\Java\jre1.8.0_251\bin\jfxwebkit.dll Tamaño 28.9306640625MB
+C:\Program Files\Java\jdk1.8.0_231\jre\bin\jfxwebkit.dll Tamaño 28.12890625MB
+C:\Program Files\Java\jre1.8.0_251\lib\rt.jar Tamaño 26.5185546875MB
+C:\Program Files\Java\jdk-13\lib\src.zip Tamaño 23.4970703125MB
+C:\Program Files\Java\jdk-12.0.2\lib\src.zip Tamaño 23.345703125MB
+C:\Program Files\Java\jdk1.8.0_231\src.zip Tamaño 10.2373046875MB
+
+----------------------------
+Numeros de archivos en C:\Program Files\Java: 1562
+Media de tamaño de los archivos 0.8275910791453265 MB

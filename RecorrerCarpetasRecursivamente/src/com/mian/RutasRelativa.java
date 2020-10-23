@@ -9,33 +9,16 @@ import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.TreeMap;
+import java.util.Map.Entry;
 
-/*
- * 1 - Pida por teclado una ruta de carpeta existente en el Sistema operativo. 
- * Que vuelva a pedirla tantas veces como sea necesario, mientras que se le suministre una ruta que no exista,
- *  o que no sea una carpeta.
-2 - Cree en la raíz del proyecto una carpeta llamada “resultado”. En caso de que ya existiera, deberá borrarse 
-recursivamente, y volver a crearse de nuevo.
-3 - Cree dentro de la carpeta resultado, un archivo “informe.txt” y otra carpeta llamada “archivos menores”.
-4 - Recorra recursivamente todo el subárbol que cuelga de la carpeta indicada en el punto 1, haciendo lo siguiente. 
-Usa dentro de la función recursiva las herramientas que quieras, de forma que cuando acabe todo el recorrido:
-En la carpeta “archivos menores” se hayan copiado los 10 (como máximo) archivos más pequeños que había en ese árbol de directorios.
-En “informe.txt”, se haga una lista de las rutas absolutas de los 10 archivos más grandes encontrados, junto a su tamaño en MB, 
-ordenados por tamaño. Cada uno en una línea. Después, una lista de las rutas relativas de los 10 archivos más pequeños encontrados,
- junto a su tamaño en MB. Por último, un informe sobre cuántos archivos se han encontrado, y la media de tamaño de todos los archivos.
-Ejemplo de informe.txt:
-
- */
-public class RecorrerCarpetas {
+public class RutasRelativa {
 
 	public static void main(String[] args) {
-
+		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
 		FileSystem fs = FileSystems.getDefault();// Creamos un File System para poder manejar ficheros
@@ -126,11 +109,15 @@ public class RecorrerCarpetas {
 				int contaGrande = 10;
 
 				for (int i = listaCompleta.size() - 1; i >= 0; i--) {
-					
+					//para hacerlo relativo:  creamos un path actual que es la ruta del archivo completa 
+					  Path actual=fs.getPath(listaCompleta.get(i).getAbsolutePath());
+					  //ahora lo restaremos por medio del relativice de la ruta que pusimos principal
+					  actual=rutaCarpeta.relativize(actual.toAbsolutePath());
+					 
 					System.out.println(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
 							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB");
 					File archivo = new File(listaCompleta.get(i).toString());
-					info.write(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
+					info.write(actual.toString() + " Tamaño "
 							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB\n");
 
 					contaGrande--;

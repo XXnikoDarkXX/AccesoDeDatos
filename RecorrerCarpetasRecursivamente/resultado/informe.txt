@@ -1,30 +1,30 @@
 10'Archivos mas pequeños 
 --------------------------
 
-C:\Program Files\Java\jre1.8.0_251\lib\security\trusted.libraries Tamaño 0.0MB
-C:\Program Files\Java\jdk1.8.0_231\lib\visualvm\etc\visualvm.clusters Tamaño 0.0MB
-C:\Program Files\Java\jdk-13\lib\jvm.cfg Tamaño 0.0MB
-C:\Program Files\Java\jdk-13\legal\jdk.zipfs\LICENSE Tamaño 0.0MB
-C:\Program Files\Java\jdk-13\legal\jdk.zipfs\COPYRIGHT Tamaño 0.0MB
-C:\Program Files\Java\jdk1.8.0_231\lib\visualvm\profiler\VERSION.txt Tamaño 0.0MB
-C:\Program Files\Java\jre1.8.0_251\LICENSE Tamaño 0.0MB
-C:\Program Files\Java\jre1.8.0_251\README.txt Tamaño 0.0MB
-C:\Program Files\Java\jre1.8.0_251\lib\javafx.properties Tamaño 0.0MB
-C:\Program Files\Java\jdk1.8.0_231\lib\missioncontrol\features\org.eclipse.emf.ecore_2.10.1.v20140901-1043\META-INF\eclipse.inf Tamaño 0.0MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Renderer\Local Storage\leveldb\LOCK Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\pruebaKotlin\.gradle\6.1.1\fileChanges\last-build.bin Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\pruebaKotlin\app\build\intermediates\navigation_json\debug\navigation.json Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\LSEDactilologico\app\build\kotlin\compileDebugKotlin\caches-jvm\lookups\counters.tab Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\.git\COMMIT_EDITMSG Tamaño 0.0MB
+C:\Users\nicoc\Documents\My Games\Borderlands 2\WillowGame\SaveData\76561198208648747\bifrostcfg Tamaño 0.0MB
+C:\Users\nicoc\Documents\My Games\Borderlands 2\LauncherData\NewsMetadata.wpb Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\Lenguajes2-Trimestre\.git\COMMIT_EDITMSG Tamaño 0.0MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Cache\browser_cache_settings.dat Tamaño 0.0MB
+C:\Users\nicoc\Documents\GitHub\proyecto\.git\COMMIT_EDITMSG Tamaño 0.0MB
 
 Archivos Mas grandes 
 ---------------------
-C:\Program Files\Java\jdk-12.0.2_windows-x64_bin.exe Tamaño 80.2529296875MB
-C:\Program Files\Java\jdk-13\lib\modules Tamaño 66.8525390625MB
-C:\Program Files\Java\jdk-12.0.2\lib\modules Tamaño 66.34375MB
-C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar Tamaño 30.7421875MB
-C:\Program Files\Java\jre1.8.0_251\bin\jfxwebkit.dll Tamaño 28.9306640625MB
-C:\Program Files\Java\jdk1.8.0_231\jre\bin\jfxwebkit.dll Tamaño 28.12890625MB
-C:\Program Files\Java\jre1.8.0_251\lib\rt.jar Tamaño 26.5185546875MB
-C:\Program Files\Java\jdk-13\lib\src.zip Tamaño 23.4970703125MB
-C:\Program Files\Java\jdk-12.0.2\lib\src.zip Tamaño 23.345703125MB
-C:\Program Files\Java\jdk1.8.0_231\src.zip Tamaño 10.2373046875MB
+C:\Users\nicoc\Documents\Camtasia\Rec 06-03-20_001.trec Tamaño 171.9755859375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_002.trec Tamaño 117.2109375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-21-20.trec Tamaño 106.63671875MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20.trec Tamaño 99.283203125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_001.trec Tamaño 78.5732421875MB
+C:\Users\nicoc\Documents\Camtasia\ProyectoLenguajes\ProyectoLenguajes.mp4 Tamaño 51.6611328125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_006.trec Tamaño 50.775390625MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_003.trec Tamaño 46.8740234375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_004.trec Tamaño 42.2080078125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_004.trec Tamaño 38.99609375MB
 
 ----------------------------
-Numeros de archivos en C:\Program Files\Java: 1562
-Media de tamaño de los archivos 0.8275910791453265 MB
+Numeros de archivos en C:\Users\nicoc\Documents: 3946
+Media de tamaño de los archivos 0.7096003567695134 MB

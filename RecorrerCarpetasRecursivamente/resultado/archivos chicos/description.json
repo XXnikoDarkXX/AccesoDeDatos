@@ -1,0 +1,12 @@
+{
+    "pluginDependencies": [],
+    "riotMeta": {
+        "type": "frontend",
+        "subtype": "bootstrap",
+        "app": "lol",
+        "feature": "plugin runner",
+        "hasBundledAssets": true,
+        "globalAssetBundles": [ "assets.wad" ]
+    },
+    "name": "rcp-fe-plugin-runner"
+}

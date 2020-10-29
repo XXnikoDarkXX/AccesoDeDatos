@@ -1,30 +1,30 @@
 10'Archivos mas pequeños 
 --------------------------
 
-C:\Users\nicoc\Documents\Rockstar Games\Social Club\Renderer\Local Storage\leveldb\LOCK Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\pruebaKotlin\.gradle\6.1.1\fileChanges\last-build.bin Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\pruebaKotlin\app\build\intermediates\navigation_json\debug\navigation.json Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\LSEDactilologico\app\build\kotlin\compileDebugKotlin\caches-jvm\lookups\counters.tab Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\ProgramacionMultimedia\.git\COMMIT_EDITMSG Tamaño 0.0MB
-C:\Users\nicoc\Documents\My Games\Borderlands 2\WillowGame\SaveData\76561198208648747\bifrostcfg Tamaño 0.0MB
-C:\Users\nicoc\Documents\My Games\Borderlands 2\LauncherData\NewsMetadata.wpb Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\Lenguajes2-Trimestre\.git\COMMIT_EDITMSG Tamaño 0.0MB
-C:\Users\nicoc\Documents\Rockstar Games\Social Club\Cache\browser_cache_settings.dat Tamaño 0.0MB
-C:\Users\nicoc\Documents\GitHub\proyecto\.git\COMMIT_EDITMSG Tamaño 0.0MB
+C:\Riot Games\Riot Client\UX\Plugins\rcp-fe-keystone-react\description.json Tamaño 0.0MB
+C:\Riot Games\Riot Client\UX\Plugins\plugin-manifest.json Tamaño 0.0MB
+C:\Riot Games\Riot Client\UX\Plugins\rcp-fe-plugin-runner\description.json Tamaño 0.0MB
+C:\Riot Games\Riot Client\system.yaml Tamaño 0.00390625MB
+C:\Riot Games\Riot Client\Resources\icon.ico Tamaño 0.013671875MB
+C:\Riot Games\Riot Client\UX\cef_resources.pak Tamaño 0.0166015625MB
+C:\Riot Games\Riot Client\UX\locales\en-US.pak Tamaño 0.01953125MB
+C:\Riot Games\Riot Client\UX\libEGL.dll Tamaño 0.04296875MB
+C:\Riot Games\Riot Client\UX\Plugins\rcp-fe-plugin-runner\assets.wad Tamaño 0.044921875MB
+C:\Riot Games\Riot Client\rail_api_v1.dll Tamaño 0.0498046875MB
 
 Archivos Mas grandes 
 ---------------------
-C:\Users\nicoc\Documents\Camtasia\Rec 06-03-20_001.trec Tamaño 171.9755859375MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_002.trec Tamaño 117.2109375MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-21-20.trec Tamaño 106.63671875MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20.trec Tamaño 99.283203125MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_001.trec Tamaño 78.5732421875MB
-C:\Users\nicoc\Documents\Camtasia\ProyectoLenguajes\ProyectoLenguajes.mp4 Tamaño 51.6611328125MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_006.trec Tamaño 50.775390625MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_003.trec Tamaño 46.8740234375MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_004.trec Tamaño 42.2080078125MB
-C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_004.trec Tamaño 38.99609375MB
+C:\Riot Games\Riot Client\UX\Plugins\rcp-fe-keystone-react\assets.wad Tamaño 43.3466796875MB
+C:\Riot Games\Riot Client\RiotClientServices.exe Tamaño 33.22265625MB
+C:\Riot Games\Riot Client\UX\libcef.dll Tamaño 26.7333984375MB
+C:\Riot Games\Riot Client\RiotClientFoundation.dll Tamaño 8.2939453125MB
+C:\Riot Games\Riot Client\rail_api_v2.dll Tamaño 7.220703125MB
+C:\Riot Games\Riot Client\UX\icudtl.dat Tamaño 4.9248046875MB
+C:\Riot Games\Riot Client\UX\RiotClientUx.exe Tamaño 2.4287109375MB
+C:\Riot Games\Riot Client\UX\devtools_resources.pak Tamaño 2.2509765625MB
+C:\Riot Games\Riot Client\vivoxsdk.dll Tamaño 2.0888671875MB
+C:\Riot Games\Riot Client\UX\cef_extensions.pak Tamaño 2.0859375MB
 
 ----------------------------
-Numeros de archivos en C:\Users\nicoc\Documents: 3946
-Media de tamaño de los archivos 0.7096003567695134 MB
+Numeros de archivos en C:\Riot Games: 34
+Media de tamaño de los archivos 8.451717601102942 MB

@@ -66,26 +66,24 @@ public class RecorrerCarpetas {
 			copiarArchivos(rutaCarpeta, listaArchivos);// para conseguir todos los archivos de la carpeta elegida
 			double media = 0;
 
-			LinkedList<File> listaCompleta = new LinkedList();
 			// Imprimimos de menora mayor todos los archivos
 			listaArchivos.entrySet().forEach(
 					entry -> System.out.println("Clave: " + entry.getKey() + "MB -> Valor: " + entry.getValue()));
 
 			System.out.println("---------");
 
-			//metemos la coleccion ordenada en un linkedlist de tipo File
+			int contaPequeno = 0;
+			// para conseguir la media
 			for (Entry<Double, Path> entry : listaArchivos.entrySet()) {
 				Double key = entry.getKey();
 				Path value = entry.getValue();
 				File archivo = new File(value.toString());
 				double ocupaFichero = (double) (archivo.length() / 1024);
 				double ocupaMegas = (double) ocupaFichero / 1024;
-				Double tamaño = ocupaMegas;
+
 				media += ocupaMegas;
-				listaCompleta.add(archivo);
 
 			}
-
 			FileWriter info;
 
 			try {
@@ -97,60 +95,76 @@ public class RecorrerCarpetas {
 				info.flush();
 				info.close();
 
-				int contaMenor = 0;// contador que usaremos para coger los 10 archivos mas pequeños
-				// Usamos este for para coger los archivos lo guardamos en un LinkedList
+				// Usamos este for para coger los archivos lo guardamos
 				info = new FileWriter("./resultado\\informe.txt", true);
+				// Conseguir los 10 mas pequenos
+				for (Entry<Double, Path> entry : listaArchivos.entrySet()) {
 
-				// Usaremos esta lista para coger los 10 archivos pequeños
-				LinkedList<File> listaPequena = new LinkedList();
-				for (int i = 0; i < listaCompleta.size(); i++) {
-					System.out.println(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
-							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB");
-					File archivo = new File(listaCompleta.get(i).toString());
-					info.write(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
-							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB\n");
-					listaPequena.add(archivo);
-					contaMenor++;
-					if (contaMenor == 10) {
+					Double key = entry.getKey();
+					Path value = entry.getValue();
+					File archivo = new File(value.toString());
+					double ocupaFichero = (double) (archivo.length() / 1024);
+					double ocupaMegas = (double) ocupaFichero / 1024;
+					System.out
+							.println(archivo.toPath() + " Tamaño " + (double) (archivo.length() / 2024) / 1024 + "MB");
+
+					info.write(
+							value.toAbsolutePath() + " Tamaño " + (double) (archivo.length() / 2024) / 1024 + "MB\n");
+					contaPequeno++;
+					if (contaPequeno == 10) {
 						break;
 					}
 				}
+
 				info.write("\n");
 				info.flush();
 				info.close();
 
+				// hacemos esta funcion para conseguir un treemap al reves y le pasaamos todos
+				// los datos del normal para poder iterar
+				// de mayor a menor
+				TreeMap<Double, Path> listaAlReves = new TreeMap<Double, Path>((Collections.reverseOrder()));
+
+				for (Entry<Double, Path> entry : listaArchivos.entrySet()) {
+					double key = entry.getKey();
+					Path value = entry.getValue();
+					listaAlReves.put(key, value);
+				}
 				System.out.println("10 Archivos mas Grandes------------------");
 
 				info = new FileWriter("./resultado\\informe.txt", true);
+
 				info.write("Archivos Mas grandes \n---------------------\n");
-				int contaGrande = 10;
+				int contaGrande = 0;
+				for (Entry<Double, Path> entry : listaAlReves.entrySet()) {
 
-				for (int i = listaCompleta.size() - 1; i >= 0; i--) {
-					
-					System.out.println(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
-							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB");
-					File archivo = new File(listaCompleta.get(i).toString());
-					info.write(listaCompleta.get(i).getAbsolutePath() + " Tamaño "
-							+ (double) (listaCompleta.get(i).length() / 2024) / 1024 + "MB\n");
+					Double key = entry.getKey();
+					Path value = entry.getValue();
+					File archivo = new File(value.toString());
+					double ocupaFichero = (double) (archivo.length() / 1024);
+					double ocupaMegas = (double) ocupaFichero / 1024;
+					System.out
+							.println(archivo.toPath() + " Tamaño " + (double) (archivo.length() / 2024) / 1024 + "MB");
 
-					contaGrande--;
-					if (contaGrande == 0) {
+					info.write(
+							value.toAbsolutePath() + " Tamaño " + (double) (archivo.length() / 2024) / 1024 + "MB\n");
+					contaGrande++;
+					if (contaGrande == 10) {
 						break;
 					}
-
 				}
 
 				info.write("\n----------------------------\n");
 				info.write(
-						"Numeros de archivos en " + rutaCarpeta.toAbsolutePath() + ": " + listaCompleta.size() + "\n");
-				info.write("Media de tamaño de los archivos " + (double) media / listaCompleta.size() + " MB");
+						"Numeros de archivos en " + rutaCarpeta.toAbsolutePath() + ": " + listaArchivos.size() + "\n");
+				info.write("Media de tamaño de los archivos " + (double) media / listaArchivos.size() + " MB");
 				info.flush();
 				info.close();
 				System.out.println(
-						"Numeros de archivos en " + rutaCarpeta.toAbsolutePath() + ": " + listaCompleta.size() + "\n");
-				System.out.println("Media de tamaño de los archivos " + (double) media / listaCompleta.size() + " MB");
+						"Numeros de archivos en " + rutaCarpeta.toAbsolutePath() + ": " + listaArchivos.size() + "\n");
+				System.out.println("Media de tamaño de los archivos " + (double) media / listaArchivos.size() + " MB");
 
-				copiarFicherosPequeños(listaPequena);
+				copiarFicherosPequeños(listaArchivos);
 
 			} catch (IOException e2) {
 				// TODO Auto-generated catch block
@@ -269,8 +283,10 @@ public class RecorrerCarpetas {
 	/**
 	 * Funcion para recorrer recursivamete un subdirectorio elegido y copiar todas
 	 * las rutas de los archivos en un linkedList
-	 * @param ruta de donde copiaremos los archivos
-	 * @param listaArchivos lista donde tendremos todos los archivos del subdirectorio
+	 * 
+	 * @param ruta          de donde copiaremos los archivos
+	 * @param listaArchivos lista donde tendremos todos los archivos del
+	 *                      subdirectorio
 	 */
 	public static void copiarArchivos(Path ruta, Map<Double, Path> listaArchivos) {
 		DirectoryStream<Path> hijosCarpeta;// Este objeto sirve para poder iterar directorios lo convertimos en una
@@ -308,14 +324,18 @@ public class RecorrerCarpetas {
 	 * 
 	 * @param lista de tipo File donde tenemos los 10 archivos más pequeños
 	 */
-	public static void copiarFicherosPequeños(LinkedList<File> lista) {
+	public static void copiarFicherosPequeños(Map<Double, Path> lista) {
 		FileSystem fs = FileSystems.getDefault();// Creamos un File System para poder manejar ficheros
 
-		for (int i = 0; i < lista.size(); i++) {
+		int conta = 0;
+		for (Entry<Double, Path> entry : lista.entrySet()) {
+
+			Double key = entry.getKey();
+			Path value = entry.getValue();
 			// Creamos los archivos que queremos copiar
-			File original = lista.get(i);
+			File original = new File(value.toString());
 			// obtenemos la ruta del archivo original
-			Path originalPath = original.toPath();
+			Path originalPath = value;
 			// obtenemos la ruta de donde vamos a copiarlo + nombre del archivo
 			Path copia = fs.getPath("./resultado\\archivos chicos\\" + original.getName());
 			try {
@@ -325,6 +345,10 @@ public class RecorrerCarpetas {
 				e.printStackTrace();
 			}
 
+			conta++;
+			if (conta == 10) {
+				break;
+			}
 		}
 
 	}

@@ -21,11 +21,19 @@ public class Jugador extends ElementoConFuerza implements Serializable{
     private byte posX; //Fila del tablero donde está
     private byte posY; //Columna del tablero donde está
 
-    
+    /**
+     * Constructor vacio 
+     */
  public Jugador() {
     	super("Anonimo", (byte)10);
     }
-    
+    /**
+     * Constructor Jugador con todos los parametros
+     * @param nombre del jugador
+     * @param fuerza fuerza en byte del jugador
+     * @param posX fila del tablero
+     * @param posY columna del tablero
+     */
     public Jugador(String nombre, byte fuerza,byte posX, byte posY) {
         super(nombre, fuerza);
         this.posX = posX;
@@ -48,6 +56,7 @@ public class Jugador extends ElementoConFuerza implements Serializable{
     public void setPosY(byte posY) {
         this.posY = posY;
     }
+    
   /*  
    * Ya no hace falta porque tengo el mapa cargar
     public void guardar(){

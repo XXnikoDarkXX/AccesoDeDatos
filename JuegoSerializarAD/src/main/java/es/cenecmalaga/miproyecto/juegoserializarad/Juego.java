@@ -24,9 +24,12 @@ public class Juego {
      */
     public static void main(String[] args) {
     	FileSystem fs=FileSystems.getDefault();
-        Mapa mapa=new Mapa();
+        Mapa mapa=new Mapa();//creamos un mapa aleatorio
+        
+        //si mapa existe simplemente lo cargamos
        if (Files.exists(fs.getPath("./mapa.cenec"))) {
 		mapa=Mapa.cargar();
+		//si no existe creamos un nuevo mapa y lo guardamos
 	}else {
 		mapa=new Mapa();
 		mapa.guardar();

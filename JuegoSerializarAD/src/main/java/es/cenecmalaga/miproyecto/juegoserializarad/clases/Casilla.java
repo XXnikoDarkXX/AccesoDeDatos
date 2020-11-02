@@ -11,17 +11,25 @@ import java.util.ArrayList;
 /**
  *
  * @author mparamos
+ * 
  */
 public class Casilla extends ElementoConNombre implements Serializable {
     private String desc;
     private ArrayList<Objeto> objetos;
-
+    /**
+     * Constructor de casilla con todos los parametros
+     * @param nombre de la casilla
+     * @param desc descripcion de la casilla
+     * @param objetos de la casilla
+     */
     public Casilla( String nombre,String desc, ArrayList<Objeto> objetos) {
         super(nombre);
         this.desc = desc;
         this.objetos = objetos;
     }
-    
+    /**
+     * Constructor vacio de Casillo lo hacemos porque implementamos un Serializable
+     */
     public Casilla() {
     	super("casilla X");
     	

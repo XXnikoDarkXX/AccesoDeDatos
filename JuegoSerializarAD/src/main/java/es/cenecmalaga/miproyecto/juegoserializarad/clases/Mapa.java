@@ -21,10 +21,7 @@ import java.util.Random;
 public class Mapa implements Serializable{
     private Casilla[][] casillas;
     private Jugador jugador;
-    /**
-     * Constructor vacio de mapa donde creamos las casillas [][][] y creamos el jugador
-     * Y a jugador le metemos una posicion aleatorio en una casilla
-     */
+
     public Mapa(){
         Random r=new Random();
         int tamanioFilas=r.nextInt(11)+5;
@@ -33,11 +30,7 @@ public class Mapa implements Serializable{
         jugador=new Jugador("Jugador",(byte)10,(byte)r.nextInt(tamanioFilas),(byte)r.nextInt(tamanioColumnas));
     }
     
-    /**
-     * Constructor de Mapa con todas sus parametros
-     * @param casillas
-     * @param jugador
-     */
+    
     public Mapa(Casilla[][] casillas, Jugador jugador) {
         this.casillas = casillas;
         this.jugador = jugador;
@@ -62,7 +55,6 @@ public class Mapa implements Serializable{
     @Override
     //Para dibujar el mapa
     public String toString() {
-    
         String ret="";
         //en este for si encontramos al jugador sus coordenadas dibujaremos una j si no dibujamos un □
         for (int i = 0; i < this.casillas.length; i++) {
@@ -77,12 +69,9 @@ public class Mapa implements Serializable{
         }
         return ret;
     }
-    /**
-     * Funcion por el escribimos la clase mapa, usando un FileOuput donde le metemos el nombre del archivo.
-     * Y mediante el ObjectOuputStream escribimos dicha clase
-     */
+    
     public void guardar(){
-        FileOutputStream fos;//Usamos para escribir en binarios
+        FileOutputStream fos;
 		
 			
 		
@@ -92,9 +81,9 @@ public class Mapa implements Serializable{
 			fos = new FileOutputStream("./mapa.cenec");
 		
 	
-        ObjectOutputStream oos = new ObjectOutputStream(fos);//metemos el file a un objectOuput
-        oos.writeObject(this);//escribimos el objeto
-        oos.flush();//aplicamos
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+        oos.writeObject(this);
+        oos.flush();
         oos.close();
         fos.close();
 		} catch (FileNotFoundException e) {
@@ -105,22 +94,17 @@ public class Mapa implements Serializable{
 			e.printStackTrace();
 		}
     }
-    /**
-     * Mediante es funcion creamos un FileInput (llamamos al nombre del archivo), creamos un ObjectInput para poder leer,
-     * Finalmente creamos un Mapa auxiliar que vamos a cargarle la lectura del ObjectIpunt
-     * @return
-     */
+    
     public static Mapa cargar (){
         FileInputStream fis;
 		try {
 			fis = new FileInputStream("./mapa.cenec");
 		
-        ObjectInputStream ois = new ObjectInputStream(fis);//Metemos el FileInput a un ObjectInput
-        Mapa aux=(Mapa)ois.readObject();//Crea una variable tipo Mapa, y lo lee con el ois.ReadObject lee el objeto  y hace el casting
-        //Resumido: a Mapa aux le va a cargar la informacion de ois.ReadObject. Va a coger un archivo y se lo va a cargar a una variable
+        ObjectInputStream ois = new ObjectInputStream(fis);
+        Mapa aux=(Mapa)ois.readObject();
         ois.close();
         fis.close();
-        return aux; //devuelvd el mapa leido
+        return aux; 
     } catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

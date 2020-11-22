@@ -77,7 +77,7 @@ public class MainFlujoMaestro {
             ImageIO.write(resultado, "JPEG", new File("./resultado.jpg"));//lo escribimos
 
             //Como leer y escribir un archivo binario correctamente con clases para leer flujos de datos binarios,
-            //como FileInputStream y FileOutputStream SIN LA CALSE DE BUFFEREDREADER NI READERIMAGE
+            //como FileInputStream y FileOutputStream SIN LA CLASE DE BUFFEREDREADER NI READERIMAGE
             
                 FileInputStream isrimg=new FileInputStream("./imagen.jpg");//Creamos la clase binaria
             FileOutputStream osw=new FileOutputStream("./imagenStreamBinario.jpg");

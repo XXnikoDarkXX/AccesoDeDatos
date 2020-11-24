@@ -16,7 +16,7 @@ import javax.imageio.ImageIO;
 public class FlujosTexto {
 
 	public static void main(String[] args) {
-
+		BufferedWriter escritor;
 		try {
 
 							// ESCRIBIR
@@ -27,7 +27,7 @@ public class FlujosTexto {
 			// Si no queremos que nos machaque las cosas podemos usar un True al lado de la
 			// ruta
 
-			BufferedWriter escritor = new BufferedWriter(new FileWriter("ejemplo.txt", true));
+			escritor	 = new BufferedWriter(new FileWriter("ejemplo.txt", true));
 
 			escritor.write("Esto es una prueba linea 1\n");
 			escritor.write("Esto es una prueba linea 2\n");
@@ -52,8 +52,12 @@ public class FlujosTexto {
 			br.close();
 			System.out.println(texto);
 
-			
-
+				//Prueba de concatenacion
+			escritor	 = new BufferedWriter(new FileWriter("ejemplo.txt"));
+			escritor.write("jaja");
+			escritor.write("\njeje");
+			escritor.flush();
+			escritor.close();
 		} catch (IOException e) {
 			
 			e.printStackTrace();

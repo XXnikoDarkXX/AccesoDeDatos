@@ -89,11 +89,12 @@ public class MainSerial {
                     } else if (archivo.getName().endsWith("jpg")) {
                         System.out.println("Es un jpg y es " + rutaArchivo +"le hacemos rojo");
                         imagenRojizo(entry);
+                        System.out.println("Tamaño de la imagen +"+archivo.length());
                     } else {
                         System.out.println("Te añado a la lista de objetosArchivos");
                         Archivo arc = new Archivo(entry.toString(),(int)archivo.length());
                         
-                       serial.setListaArchivo(arc);//Objetos Archvios
+                       serial.setListaArchivo(arc);//Objetos Archivos
                     }
 
                 }

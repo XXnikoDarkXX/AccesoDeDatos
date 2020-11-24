@@ -73,12 +73,20 @@ public class Main {
 		//voy a probar la lectura
 		archivo = new RandomAccessFile("../"+codigoProvincia+".data","rw");
 		long contaPuntero=0;
-		System.out.println("En total hay"+archivo.length());
+		System.out.println("En total hay"+archivo.length()/4);
+		
 		//dividimos entre 4 el archivo.leng para que nos nos lo haga 4 veces mas
 		for (int i = 0; i < archivo.length()/4; i++) {
 			archivo.seek(contaPuntero);
 			System.out.println(archivo.readInt());
 			contaPuntero+=4;
+		}
+		long tamañoArchivo= archivo.length();
+		archivo.close();
+		
+		if (tamañoArchivo==0) {
+			
+			Files.delete(fs.getPath("../"+codigoProvincia+".data"));	
 		}
 		
 		
@@ -92,7 +100,11 @@ public class Main {
 		}
 
 	}
-
+		/**
+		 * Funcion para sacar los contagios de una linea de una provincia y la escribimos 
+		 * @param cadena linea del registro
+		 * @param provincia m
+		 */
 	public static void SacarDatos(String cadena, String provincia) {
 		
 		String[] array = cadena.split(",");
@@ -113,7 +125,7 @@ try {
 			contaPuntero=archivo.length();
 			archivo.seek(contaPuntero);
 			archivo.writeInt(valor);
-			
+			archivo.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

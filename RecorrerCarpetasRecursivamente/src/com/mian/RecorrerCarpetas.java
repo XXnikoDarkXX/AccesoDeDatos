@@ -10,7 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -246,9 +245,8 @@ public class RecorrerCarpetas {
 	 */
 	public static void borrarhijoRecursivo(Path carpetaHija) {
 
-		DirectoryStream<Path> hijosCarpeta;// Este objeto sirve para poder iterar directorios lo convertimos en una
-											// especie
-		// de lista para guardar varios Path
+		DirectoryStream<Path> hijosCarpeta;// Este objeto sirve para poder iterar directorios lo convertimos en una especie
+		//de lista para guardar varios Path
 
 		try {
 

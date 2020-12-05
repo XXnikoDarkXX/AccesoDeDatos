@@ -50,7 +50,7 @@ public class MainSerial {
     
     /**
      * Funcion que recorre todo el subdirectorio de Arbol recursivamente y en funcion de que tipo sea el archivo recorrido
-     * eje. si es jpg lo reescribira con un tono rojizo y si es un jpg y encuentra la palabra cenec le cambia a centrollolandia
+     * eje. si es jpg lo reescribira con un tono rojizo y si es un txt y encuentra la palabra cenec le cambia a centrollolandia
      * Y si el archivo no es ningun tipo de los anteriores lo mete en un objeto de tipo Archivos y lo serializza
      * @param arbol Directorio que vamos a recorrer  
      * @param serial Objeto de tipo Archivos donde metemos los archivos que no sean jpg ni txt

@@ -5,6 +5,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonSyntaxException;
@@ -22,9 +26,19 @@ public class MainGSON {
 		for (int i = 0; i < 50; i++) {
 			personas.add(new Persona());
 		}
+		try {
+		//Parte JAXB
+		JAXBContext con=JAXBContext.newInstance(Persona.class);
+		Marshaller mar=con.createMarshaller();
+		//Ponemos mas bonito el xml
+		
+		mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+		mar.marshal(personas.get(0), new FileWriter("./persona0.xml"));
+		 
+		//Parte Gson
 		String personaJson=gson.toJson(personas);
 		System.out.println(personaJson);
-	try {
+
 		FileWriter fw=new FileWriter("./salida.json");
 		fw.write(personaJson);
 		fw.flush();
@@ -38,6 +52,9 @@ public class MainGSON {
 			System.out.println("El fichero JSON no tiene el formato esperado");
 		}
 	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (JAXBException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}

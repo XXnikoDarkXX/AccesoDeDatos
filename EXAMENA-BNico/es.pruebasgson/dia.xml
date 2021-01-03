@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DiaDeExamen>
+       <dia>Jueves 17 de Diciembre</dia>
+       <curso>2020-2021</curso>
+       <examenes>
+             <examen>
+                     <curso>2DAM</curso>
+                    <asignatura>AD</asignatura>
+                    <horaInicio>8:30</horaInicio>
+             </examen>
+             <examen>
+                     <curso>1DAM</curso>
+                    <asignatura>Programación</asignatura>
+                    <horaFin>11:30</horaFin>
+             </examen>
+             <examen>
+                     <curso>1DAW</curso>
+                    <asignatura>Programación</asignatura>
+                    <horaFin>15:00</horaFin>
+             </examen>
+       </examenes>
+</DiaDeExamen>

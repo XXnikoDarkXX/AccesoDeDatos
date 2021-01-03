@@ -1,0 +1,29 @@
+{
+   "nombreColeccion":"Asignaturas",
+   "web":"cenecmalaga.es",
+   "direccion":{
+       "calle":"Hernán Ruiz",
+       "numero":6
+   },
+   "elementos":[
+         {
+          "nombre":"PMDM",
+          "tipo":"Asignatura de segundo"
+         },
+
+         {
+          "nombre":"PSP",
+          "tipo":"Asignatura de segundo"
+         },
+
+         {
+          "nombre":"AD",
+          "tipo":"Asignatura de segundo"
+         },
+
+         {
+          "nombre":"Programación",
+          "tipo":"Asignatura de primero"
+         }
+   ]
+}

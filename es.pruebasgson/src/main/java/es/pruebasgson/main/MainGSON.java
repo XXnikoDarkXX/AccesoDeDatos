@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -27,27 +28,45 @@ public class MainGSON {
 			personas.add(new Persona());
 		}
 		try {
-		//Parte JAXB
+		//Parte JAXB crear xml
+			
+		//Usamos la clase JAXBContext y la instanciamos con la clase donde vamos a exportar en este caso Persona
 		JAXBContext con=JAXBContext.newInstance(Persona.class);
 		Marshaller mar=con.createMarshaller();
 		//Ponemos mas bonito el xml
 		
 		mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		mar.marshal(personas.get(0), new FileWriter("./persona0.xml"));
-		 
-		//Parte Gson
-		String personaJson=gson.toJson(personas);
+		
+		//Parte Gson 
+		String personaJson=gson.toJson(personas);//pasamos a un String convertido a gson
+		//mediante gson.ToJson(personas)
 		System.out.println(personaJson);
-
+			
+		//Escribimo el fichero en JSON
 		FileWriter fw=new FileWriter("./salida.json");
+		
 		fw.write(personaJson);
 		fw.flush();
 		fw.close();
 		try {
-		FileReader fr=new FileReader("./videojuegos.json");
-	Biblioteca biblio=	(Biblioteca)gson.fromJson(fr, Biblioteca.class);
-		System.out.println(biblio);
+			//Leer Json y ponerla en una variable
+		FileReader fr=new FileReader("./videojuegos.json");//creamos un FileReader donde lee el Json
+	Biblioteca biblio=	(Biblioteca)gson.fromJson(fr, Biblioteca.class);//sacamos el json al objeto biblio
+		System.out.println(biblio);//lo imprimimos con el ToString
 		
+		//Exportar biblioteca a XML fichero
+		JAXBContext context=JAXBContext.newInstance(Biblioteca.class);
+		Marshaller marBiblioteca=context.createMarshaller();
+		marBiblioteca.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);//hace que se imprima de forma bonita
+		marBiblioteca.marshal(biblio, new FileWriter("./biblioteca.xml"));
+		
+	
+	/*	//traer xml a objeto
+		Unmarshaller um=context.createUnmarshaller();
+		Biblioteca traida=(Biblioteca) um.unmarshal(new FileReader("./biblioteca.xml"));//Simplemente traemos un archivo xml al objeto
+		System.out.println("espetate");
+		*/
 		}catch (JsonSyntaxException jse){
 			System.out.println("El fichero JSON no tiene el formato esperado");
 		}

@@ -1,0 +1,27 @@
+{
+  "marca": "Xiaomi",
+  "modelo": "mi9",
+  "lanzamiento": 2019,
+  "componente": [
+    {
+      "nombre": "Cámara Frontal",
+      "descripcion": "24.8 MP CMOS BSI"
+    },
+    {
+      "nombre": "Pantalla",
+      "descripcion": "Amoled 6.4 pulgadas"
+    },
+    {
+      "nombre": "Cámara trasera",
+      "descripcion": "48 Mpx CMOS Flash dual led"
+    },
+    {
+      "nombre": "Memoria (GB)",
+      "descripcion": "6"
+    },
+    {
+      "nombre": "Espacio en disco (GB)",
+      "descripcion": "128"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+   "nombreColeccion":"Animales",
+   "web":"cenecmalaga.es",
+   "direccion":{
+       "calle":"falsa",
+       "numero":123,
+       "planta":2,
+       "piso":"c"
+   },
+   "elementos":[
+         {
+          "nombre":"Sputnik",
+          "tipo":"Perro"
+         },
+
+         {
+          "nombre":"Soyuz",
+          "tipo":"Perro"
+         },
+
+         {
+          "nombre":"Jackie",
+          "tipo":"Agaporni"
+         },
+
+         {
+          "nombre":"Calipo",
+          "tipo":"Agaporni"
+         },
+
+         {
+          "nombre":"Janis Joplin",
+          "tipo":"Tortuga"
+         },
+
+         {
+          "nombre":"Joe Strummer",
+          "tipo":"Tortuga"
+         }
+   ]
+}

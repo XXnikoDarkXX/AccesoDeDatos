@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "5fda72036f3dc6064c354474"
+  },
+  "id": 2,
+  "nombre": "Las vegas",
+  "informacion": {
+    "genero": "Comedia",
+    "Año": 1921,
+    "autor": "rick morten"
+  }
+},{
+  "_id": {
+    "$oid": "5fda72036f3dc6064c354475"
+  },
+  "id": 3,
+  "nombre": "Sense8",
+  "informacion": {
+    "genero": "Accion",
+    "Año": 2018,
+    "autor": "Lily Wachowski"
+  }
+},{
+  "_id": {
+    "$oid": "5fda72036f3dc6064c354476"
+  },
+  "id": 4,
+  "nombre": "Altered Carbon",
+  "informacion": {
+    "genero": "Accion",
+    "Año": 2020,
+    "autor": "Laeta Kalogridis"
+  }
+}]

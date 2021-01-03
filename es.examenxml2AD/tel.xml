@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<telefono>
+<marca>Xiaomi</marca>
+<modelo>mi9</modelo>
+<lanzamiento>2019</lanzamiento>
+ <componentes>
+           <componente>
+                  <nombre>Cámara Frontal</nombre>
+                  <descripcion>24.8 MP CMOS BSI</descripcion>
+           </componente>
+           <componente>
+                <nombre>Pantalla</nombre>
+                <descripcion>Amoled 6.4 pulgadas</descripcion>
+           </componente>
+           <componente>
+                <nombre>Cámara trasera</nombre>
+                <descripcion>48 Mpx CMOS Flash dual led</descripcion>
+           </componente>
+           <componente>
+                <nombre>Memoria (GB)</nombre>
+                <descripcion>6</descripcion>
+           </componente>
+           <componente>
+                <nombre>Espacio en disco (GB)</nombre>
+                <descripcion>128</descripcion>
+           </componente>
+        </componentes>
+
+</telefono>

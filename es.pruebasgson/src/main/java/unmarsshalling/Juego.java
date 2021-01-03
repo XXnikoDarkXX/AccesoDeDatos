@@ -2,12 +2,21 @@ package unmarsshalling;
 
 import java.util.HashSet;
 
+import javax.xml.bind.annotation.XmlRootElement;
+/**
+ * 
+ * @author nicoc
+ *
+ */
+
 public class Juego {
 	private String titulo;
 	private short anio;
 	private HashSet <String>plataformasEnQueLoTengo;
 	
-	
+	public Juego() {
+		
+	}
 	
 	public Juego(String titulo, short anio, HashSet<String> plataformasEnQueLoTengo) {
 		

@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "5fd87287e4e0a034fcc9c2f8"
+  },
+  "id": 1,
+  "titulo": "Soy Leyenda",
+  "autor": "Anonimo66",
+  "tema": "Zombies",
+  "año": 2007
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2f9"
+  },
+  "id": 2,
+  "titulo": "Resident Evil",
+  "autor": "San Huerto",
+  "tema": "Zombies"
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2fa"
+  },
+  "id": 3,
+  "titulo": "Fast and Furious",
+  "autor": "Charl",
+  "tema": "Accion"
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2fb"
+  },
+  "id": 4,
+  "titulo": "Los siete pecados capitales",
+  "autor": "Andrew kevin Walker",
+  "tema": "Accion"
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2fc"
+  },
+  "id": 5,
+  "titulo": "Vida Ajenas",
+  "autor": "D.J.Caruso",
+  "tema": "Suspenso"
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2fd"
+  },
+  "id": 6,
+  "titulo": "Bajo instintos",
+  "autor": "Los palos",
+  "tema": "Sensual"
+},{
+  "_id": {
+    "$oid": "5fd872a4e4e0a034fcc9c2fe"
+  },
+  "id": 7,
+  "titulo": "Los miticos",
+  "autor": "Pepito",
+  "tema": "Accion"
+}]

@@ -8,17 +8,25 @@ import java.util.TreeMap;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  * 
  * @author nicoc
  *
  */
-@XmlRootElement
+@XmlRootElement(name="individuo")//le ponemos la etiqueta raiz como individo
+@XmlType(propOrder={"nombre","anioNacimiento","genero","dni","fechaRegistro"})
 public class Persona {
+
 	private String nombre;
+	
 	private short anioNacimiento;
+	
+	
 	private char genero;
+	
+	
 	private String dni;
 	final private LocalDateTime fechaRegistro;
 	final private Date fechaFalsa;
@@ -75,7 +83,11 @@ public class Persona {
 		fechaRegistro = LocalDateTime.now();
 		fechaFalsa = Date.valueOf(fechaRegistro.toLocalDate());
 	}
-
+	
+	
+	//Si queremos que salga en el xml a los getter tenemos que añadirle el @XmlElement si estan si no a las variables internas
+	
+	@XmlElement
 	public String getNombre() {
 		return nombre;
 	}
@@ -83,23 +95,30 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+	@XmlElement(name="nacimiento")
 	public short getAnioNacimiento() {
 		return anioNacimiento;
+	}
+	
+	//Hacemos que nos devuelva String porque si no no funciona en el xml
+	@XmlElement
+	public String getfechaRegistro() {
+		return this.fechaRegistro.toString();
 	}
 
 	public void setAnioNacimiento(short anioNacimiento) {
 		this.anioNacimiento = anioNacimiento;
 	}
-
-	public char getGenero() {
-		return genero;
+	
+	@XmlElement()
+	public String getGenero() {
+		return ""+genero;
 	}
 
 	public void setGenero(char genero) {
 		this.genero = genero;
 	}
-
+	@XmlElement
 	public String getDni() {
 		return dni;
 	}

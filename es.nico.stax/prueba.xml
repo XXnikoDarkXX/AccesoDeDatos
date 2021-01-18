@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<raiz>
+  <elementoNivel1 atributo1="valor1"><![CDATA[Hola soy el elemento de nivel 1]]></elementoNivel1>
+  <elementoNivel1>
+    <elementoNivel2>2.0f</elementoNivel2>
+    <elementoNivel2/>
+  </elementoNivel1>
+</raiz>

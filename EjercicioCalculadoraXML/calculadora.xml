@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<operaciones>
+<suma>
+	<operando>3</operando>
+	<resta>
+		<operando>2</operando>
+		<operando>6</operando>
+	</resta>
+	<multiplicacion>
+		<operando>3</operando>
+	</multiplicacion>
+	<division>
+	<operando>20</operando>
+	<operando>2</operando>
+	</division>
+</suma>
+

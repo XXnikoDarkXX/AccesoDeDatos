@@ -1,17 +1,47 @@
 <?xml version="1.0" ?>
 <operaciones>
-<suma>
-	<operando>3</operando>
-	<resta>
-		<operando>2</operando>
-		<operando>6</operando>
-	</resta>
+     
+
 	<multiplicacion>
-		<operando>3</operando>
-	</multiplicacion>
+        <operando>5</operando>
+        <operando>7</operando>
+		<multiplicacion>
+			<operando>10</operando>
+			<operando>2</operando>
+	    </multiplicacion>
+		<resta>
+			<operando>10</operando>
+			<operando>10</operando>
+		</resta>	
+    </multiplicacion>
+	
 	<division>
-	<operando>20</operando>
-	<operando>2</operando>
-	</division>
-</suma>
+		<operando>10</operando>
+		<operando>10</operando>
+	</division>	
+	
+	<resta>
+		<operando>1</operando>
+		<operando>4</operando>
+		<suma>
+			<operando>2</operando>
+			<operando>4</operando>
+	    </suma>
+	</resta>
+	
+	<multiplicacion>
+			<operando>10</operando>
+			<operando>2</operando>
+			<modulo>
+				<operando>15</operando>
+				<operando>2</operando>
+			</modulo>
+	</multiplicacion>
+  
+  	<modulo>
+			<operando>10</operando>
+			<operando>2</operando>
+	</modulo>
+</operaciones>
+
 

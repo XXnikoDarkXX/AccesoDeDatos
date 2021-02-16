@@ -18,16 +18,13 @@ public class PilaProbando {
 		try {
 			reader = iFactory.createXMLStreamReader(new FileReader("./calculadora.xml"));
 			float resultadoTotal = 0;
-			String operacionActual = "";
-			float operando1 = 0;
-			float operando2 = 0;
-			byte operandoActual = 0;
+	
 			String comandoAnteriorNivel1 = "";
 			Stack<Float> nivel1 = new Stack<Float>();// este stack lo usaremos para calcular los niveles 1
 			Stack<Float> nivel2 = new Stack<Float>();// este stack lo usaremos para calcular los niveles 2
-			String operacionesNivel1 = "";// Para saber que tipo operacion debe hacer el nivel 2
+			String operacionesNivel1 = "";// Para saber que tipo operacion debe hacer el nivel 2 son las etiquetas
 			String operacionesNivel2 = "";
-			boolean paradaComando = false;
+		
 
 			String opActualn1 = ""; // son los numeros que hay
 			String opActualn2 = "";
@@ -284,7 +281,7 @@ public class PilaProbando {
 							}
 							break;
 						case "multiplicacion":
-
+							
 							if (operacionesNivel2.isEmpty()) {
 								// estoy en nivel 1
 								float resultado = 0;
@@ -334,6 +331,7 @@ public class PilaProbando {
 								comandoAnteriorNivel1 = "suma";
 								operacionesNivel1 = "";
 							} else {
+								
 								// estoy en el nivel 2
 								float resultado = 0;
 								boolean control = false;

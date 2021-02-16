@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ArchivoSerial/src/main/java"/>
+	<classpathentry kind="src" path="CrearBorrarCarpetas/src/main/java"/>
+	<classpathentry kind="src" path="CrearBorrarCarpetasEclipse/src"/>
+	<classpathentry kind="src" path="Ejer3Coronavirus/CornavirusRandomAcces/src"/>
+	<classpathentry kind="src" path="Ejer3Coronavirus/LectorCoronavirus/src"/>
+	<classpathentry kind="src" path="EjercicioCalculadoraXML/src/main/java"/>
+	<classpathentry kind="src" path="es.examenxml2AD/src/main/java"/>
+	<classpathentry kind="src" path="es.nico.ejercicio4/src/main/java"/>
+	<classpathentry kind="src" path="es.nico.stax/src/main/java"/>
+	<classpathentry kind="src" path="es.pruebasgson/src/main/java"/>
+	<classpathentry kind="src" path="Examen1ADNico/src"/>
+	<classpathentry kind="src" path="EXAMENA-BNico/es.examenxml/src/main/java"/>
+	<classpathentry kind="src" path="EXAMENA-BNico/es.pruebasgson/src/main/java"/>
+	<classpathentry kind="src" path="JuegoSerializarAD/src/main/java"/>
+	<classpathentry kind="src" path="PruebaDAo/src/main/java"/>
+	<classpathentry kind="src" path="PruebaDAONico-Mal/src/main/java"/>
+	<classpathentry kind="src" path="PruebaJavaNio/src/main/java"/>
+	<classpathentry kind="src" path="PruebaMascota-Dao(pojo)/src/main/java"/>
+	<classpathentry kind="src" path="RecorrerCarpetasRecursivamente/src"/>
+	<classpathentry kind="src" path="RepasoTema1/src"/>
+	<classpathentry kind="src" path="SerializarArchivo/src"/>
+	<classpathentry kind="src" path="T1FlujoDatos/src/main/java"/>
+	<classpathentry kind="lib" path="EXAMENA-BNico/es.pruebasgson/target/es.pruebasgson-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaDAo/bin/target/PruebaDAo-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaDAo/target/PruebaDAo-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaJavaNio/bin/target/PruebaJavaNio-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaJavaNio/target/PruebaJavaNio-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaMascota-Dao(pojo)/bin/target/PruebaDAo-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="PruebaMascota-Dao(pojo)/target/PruebaDAo-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="ArchivoSerial/target/classes"/>
+</classpath>

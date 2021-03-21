@@ -1,0 +1,1502 @@
+[
+  {
+    "nombre": "Laura",
+    "anioNacimiento": 1987,
+    "genero": "m",
+    "dni": "13909821M",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 910188700
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 7.0,
+      "PSP": 2.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Javier",
+    "anioNacimiento": 2000,
+    "genero": "h",
+    "dni": "63625564T",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 916172500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 0.0,
+      "PSP": 0.0,
+      "SGE": 2.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Nico",
+    "anioNacimiento": 1989,
+    "genero": "h",
+    "dni": "18287806U",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 916172500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 9.0,
+      "AD": 1.0,
+      "PSP": 6.0,
+      "SGE": 9.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Álvaro",
+    "anioNacimiento": 1941,
+    "genero": "h",
+    "dni": "84877158A",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 916172500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 7.0,
+      "AD": 8.0,
+      "PSP": 7.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Norberto",
+    "anioNacimiento": 1963,
+    "genero": "h",
+    "dni": "79990584S",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 916172500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 4.0,
+      "AD": 4.0,
+      "PSP": 5.0,
+      "SGE": 0.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Rocío",
+    "anioNacimiento": 1952,
+    "genero": "m",
+    "dni": "09810127I",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 0.0,
+      "AD": 8.0,
+      "PSP": 2.0,
+      "SGE": 7.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Carla",
+    "anioNacimiento": 2002,
+    "genero": "m",
+    "dni": "12572345F",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 7.0,
+      "AD": 8.0,
+      "PSP": 5.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Esther",
+    "anioNacimiento": 2014,
+    "genero": "m",
+    "dni": "23193580I",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 4.0,
+      "AD": 10.0,
+      "PSP": 2.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Daniel",
+    "anioNacimiento": 1999,
+    "genero": "h",
+    "dni": "73504045B",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 8.0,
+      "AD": 9.0,
+      "PSP": 3.0,
+      "SGE": 4.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Norberto",
+    "anioNacimiento": 1940,
+    "genero": "h",
+    "dni": "74709283T",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 0.0,
+      "AD": 9.0,
+      "PSP": 8.0,
+      "SGE": 9.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Cristina",
+    "anioNacimiento": 1979,
+    "genero": "m",
+    "dni": "77637027V",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 917178200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 5.0,
+      "PSP": 5.0,
+      "SGE": 6.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Marta",
+    "anioNacimiento": 1965,
+    "genero": "m",
+    "dni": "68937821K",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 918166800
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 9.0,
+      "PSP": 4.0,
+      "SGE": 7.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Raúl",
+    "anioNacimiento": 1965,
+    "genero": "h",
+    "dni": "26484118V",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 918166800
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 2.0,
+      "AD": 7.0,
+      "PSP": 0.0,
+      "SGE": 5.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Alex",
+    "anioNacimiento": 2019,
+    "genero": "h",
+    "dni": "39265563I",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 918166800
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 10.0,
+      "PSP": 7.0,
+      "SGE": 9.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Álvaro",
+    "anioNacimiento": 1992,
+    "genero": "h",
+    "dni": "54249099K",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 919164300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 6.0,
+      "PSP": 2.0,
+      "SGE": 5.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Daniel",
+    "anioNacimiento": 2013,
+    "genero": "h",
+    "dni": "57107120F",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 919164300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 8.0,
+      "PSP": 0.0,
+      "SGE": 5.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Nico",
+    "anioNacimiento": 1959,
+    "genero": "h",
+    "dni": "36293862M",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 919164300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 7.0,
+      "PSP": 4.0,
+      "SGE": 10.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Manuel",
+    "anioNacimiento": 1977,
+    "genero": "h",
+    "dni": "39285419V",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 920162000
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 5.0,
+      "PSP": 4.0,
+      "SGE": 7.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Carla",
+    "anioNacimiento": 1962,
+    "genero": "m",
+    "dni": "43819121J",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 920162000
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 9.0,
+      "AD": 2.0,
+      "PSP": 0.0,
+      "SGE": 9.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Sandra",
+    "anioNacimiento": 1989,
+    "genero": "m",
+    "dni": "36077713D",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 921159700
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 5.0,
+      "PSP": 4.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "María",
+    "anioNacimiento": 1960,
+    "genero": "m",
+    "dni": "99385802C",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 921159700
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 7.0,
+      "AD": 9.0,
+      "PSP": 0.0,
+      "SGE": 10.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Francisco",
+    "anioNacimiento": 1964,
+    "genero": "h",
+    "dni": "71917074O",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 921159700
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 2.0,
+      "PSP": 1.0,
+      "SGE": 4.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Norberto",
+    "anioNacimiento": 1957,
+    "genero": "h",
+    "dni": "27967109E",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 921159700
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 9.0,
+      "AD": 5.0,
+      "PSP": 3.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Marta",
+    "anioNacimiento": 1963,
+    "genero": "m",
+    "dni": "99073847X",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 922157500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 1.0,
+      "AD": 6.0,
+      "PSP": 10.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Javier",
+    "anioNacimiento": 1973,
+    "genero": "h",
+    "dni": "65523660D",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 922157500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 0.0,
+      "AD": 5.0,
+      "PSP": 10.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Rocío",
+    "anioNacimiento": 1960,
+    "genero": "m",
+    "dni": "89509548V",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 922157500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 6.0,
+      "PSP": 7.0,
+      "SGE": 0.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Nico",
+    "anioNacimiento": 2016,
+    "genero": "h",
+    "dni": "85567130L",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 922157500
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 1.0,
+      "AD": 5.0,
+      "PSP": 0.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Ana",
+    "anioNacimiento": 1979,
+    "genero": "m",
+    "dni": "91260408B",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 925148200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 1.0,
+      "PSP": 0.0,
+      "SGE": 6.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Esther",
+    "anioNacimiento": 2017,
+    "genero": "m",
+    "dni": "81850138D",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 925148200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 5.0,
+      "PSP": 6.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Juanlu",
+    "anioNacimiento": 2005,
+    "genero": "h",
+    "dni": "69213970R",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 925148200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 1.0,
+      "PSP": 10.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Daniel",
+    "anioNacimiento": 1993,
+    "genero": "h",
+    "dni": "11566110X",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 925148200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 4.0,
+      "PSP": 1.0,
+      "SGE": 7.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Alex",
+    "anioNacimiento": 2011,
+    "genero": "h",
+    "dni": "86156258X",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 925148200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 10.0,
+      "PSP": 4.0,
+      "SGE": 4.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Manuel",
+    "anioNacimiento": 2005,
+    "genero": "h",
+    "dni": "57974801M",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 2.0,
+      "AD": 10.0,
+      "PSP": 5.0,
+      "SGE": 2.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Nico",
+    "anioNacimiento": 1940,
+    "genero": "h",
+    "dni": "77141033B",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 0.0,
+      "AD": 0.0,
+      "PSP": 6.0,
+      "SGE": 10.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Yuliia",
+    "anioNacimiento": 1999,
+    "genero": "m",
+    "dni": "03006555K",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 6.0,
+      "PSP": 4.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Javier",
+    "anioNacimiento": 1953,
+    "genero": "h",
+    "dni": "11785121L",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 1.0,
+      "AD": 8.0,
+      "PSP": 0.0,
+      "SGE": 10.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Daniel",
+    "anioNacimiento": 2019,
+    "genero": "h",
+    "dni": "36697464D",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 3.0,
+      "PSP": 4.0,
+      "SGE": 2.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Alberto",
+    "anioNacimiento": 1978,
+    "genero": "h",
+    "dni": "01847854D",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 4.0,
+      "PSP": 1.0,
+      "SGE": 10.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Ana",
+    "anioNacimiento": 1952,
+    "genero": "m",
+    "dni": "86532652F",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 926146200
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 8.0,
+      "PSP": 2.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Laura",
+    "anioNacimiento": 2011,
+    "genero": "m",
+    "dni": "74431471F",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 927143300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 6.0,
+      "PSP": 8.0,
+      "SGE": 0.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Cristina",
+    "anioNacimiento": 1992,
+    "genero": "m",
+    "dni": "44608514G",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 927143300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 3.0,
+      "AD": 8.0,
+      "PSP": 2.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Isabel",
+    "anioNacimiento": 1997,
+    "genero": "m",
+    "dni": "50035285G",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 927143300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 2.0,
+      "AD": 1.0,
+      "PSP": 4.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Raquel",
+    "anioNacimiento": 2005,
+    "genero": "m",
+    "dni": "05196767A",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 9.0,
+      "AD": 2.0,
+      "PSP": 3.0,
+      "SGE": 5.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Antonio",
+    "anioNacimiento": 1944,
+    "genero": "h",
+    "dni": "07606443Q",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 6.0,
+      "AD": 4.0,
+      "PSP": 6.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "María",
+    "anioNacimiento": 1961,
+    "genero": "m",
+    "dni": "06753089F",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 1.0,
+      "PSP": 3.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Alex",
+    "anioNacimiento": 1968,
+    "genero": "h",
+    "dni": "00770033S",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 7.0,
+      "AD": 2.0,
+      "PSP": 0.0,
+      "SGE": 9.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "María",
+    "anioNacimiento": 1949,
+    "genero": "m",
+    "dni": "40071585W",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 10.0,
+      "AD": 10.0,
+      "PSP": 0.0,
+      "SGE": 8.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Isabel",
+    "anioNacimiento": 1974,
+    "genero": "m",
+    "dni": "39581676I",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 8.0,
+      "AD": 2.0,
+      "PSP": 10.0,
+      "SGE": 7.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Carla",
+    "anioNacimiento": 1991,
+    "genero": "m",
+    "dni": "09326324L",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 2.0,
+      "AD": 2.0,
+      "PSP": 2.0,
+      "SGE": 3.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  },
+  {
+    "nombre": "Antonio",
+    "anioNacimiento": 1975,
+    "genero": "h",
+    "dni": "56027521X",
+    "fechaRegistro": {
+      "date": {
+        "year": 2020,
+        "month": 12,
+        "day": 16
+      },
+      "time": {
+        "hour": 17,
+        "minute": 54,
+        "second": 30,
+        "nano": 930135300
+      }
+    },
+    "fechaFalsa": "2020/12/16",
+    "asignaturas": {
+      "PMDM": 5.0,
+      "AD": 6.0,
+      "PSP": 2.0,
+      "SGE": 1.0
+    },
+    "convalidaciones": [
+      "EIE",
+      "DI"
+    ]
+  }
+]

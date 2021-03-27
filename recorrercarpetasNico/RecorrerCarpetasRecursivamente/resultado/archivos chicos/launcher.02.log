@@ -1,0 +1,38 @@
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -EpicPortal -epiclocale=es @args.txt -upgrade -relaunchFromEpic=9d2d0eb64d5c44529cece33fe2a46482
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main] Build type: FMB
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main] Version: 1.0.29.283
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main] Parameters:
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2020-10-17 12:19:08.521] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2020-10-17 12:19:08.522] [DISPLAY] [Main ] [main]     -EpicPortal
+[2020-10-17 12:19:08.522] [DISPLAY] [Main ] [main]     -epiclocale=es
+[2020-10-17 12:19:08.522] [DISPLAY] [Main ] [main]     @args.txt
+[2020-10-17 12:19:08.522] [DISPLAY] [Main ] [main]     -upgrade
+[2020-10-17 12:19:08.522] [DISPLAY] [Main ] [main]     -relaunchFromEpic=9d2d0eb64d5c44529cece33fe2a46482
+[2020-10-17 12:19:08.539] [DISPLAY] [Main ] [minmode] Starting up normally.
+[2020-10-17 12:19:08.539] [DISPLAY] [Main ] [launcher] Opening log file.
+[2020-10-17 12:19:08.582] [WARNING] [Main ] [title] No default branch for title gta5
+[2020-10-17 12:19:08.582] [WARNING] [Main ] [title] No default branch for title gtasa
+[2020-10-17 12:19:08.582] [WARNING] [Main ] [title] No default branch for title rdr2
+[2020-10-17 12:19:08.582] [WARNING] [Main ] [title] No default branch for title lanoire
+[2020-10-17 12:19:08.583] [WARNING] [Main ] [title] No default branch for title mp3
+[2020-10-17 12:19:08.583] [WARNING] [Main ] [title] No default branch for title bully
+[2020-10-17 12:19:08.583] [WARNING] [Main ] [title] No default branch for title gtavc
+[2020-10-17 12:19:08.583] [WARNING] [Main ] [title] No default branch for title gta3
+[2020-10-17 12:19:08.583] [WARNING] [Main ] [title] No default branch for title gta4
+[2020-10-17 12:19:08.583] [DISPLAY] [Main ] [titlemanager] Installation status:
+[2020-10-17 12:19:08.583] [DISPLAY] [Main ] [titlemanager] - Title gtasa     : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title gta5      : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title rdr2      : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title lanoire   : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title bully     : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title mp3       : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title gtavc     : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title gta3      : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title gta4      : Not installed
+[2020-10-17 12:19:08.584] [DISPLAY] [Main ] [titlemanager] - Title launcher  : Installed to: C:\Program Files\Rockstar Games\Launcher
+[2020-10-17 12:19:08.670] [DISPLAY] [Main ] [fileutils] Version: 2.0.6.5 | 1.0.29.283 | FFP
+[2020-10-17 12:19:08.705] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2020-10-17 12:19:08.958] [DISPLAY] [Main ] [main] Shutting down to request Epic min-mode launch
+[2020-10-17 12:19:09.781] [DISPLAY] [Main ] [launcher] Closing log file.

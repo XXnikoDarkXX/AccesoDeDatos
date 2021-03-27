@@ -1,0 +1,29 @@
+10'Archivos mas pequeños 
+--------------------------
+C:\Users\nicoc\Documents\Untitled1.c Tamaño 0.0 MB
+C:\Users\nicoc\Documents\Winstep.lnk Tamaño 9.765625E-4 MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Profiles\B6A916CA\Titles\GTA V\achievements.dat Tamaño 0.001953125 MB
+C:\Users\nicoc\Documents\Rockstar Games\Launcher\launcher.02.log Tamaño 0.0029296875 MB
+C:\Users\nicoc\Documents\Registro de conversaciones 2DAM _ Programación Multimedia 2020_10_07 14_02.rtf Tamaño 0.00390625 MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Launcher\Renderer\Service Worker\ScriptCache\2cc80dabc69f58b6_0 Tamaño 0.0048828125 MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Cache\Images\Avatars\GTAV\gtav02.png Tamaño 0.005859375 MB
+C:\Users\nicoc\Documents\Visual Studio 2019\Visualizers\attribcache140.bin Tamaño 0.0068359375 MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\Renderer\GPUCache\data_3 Tamaño 0.0078125 MB
+C:\Users\nicoc\Documents\Rockstar Games\Social Club\socialclub.log Tamaño 0.0087890625 MB
+
+Archivos Mas grandes 
+---------------------
+C:\Users\nicoc\Documents\Camtasia\Rec 06-03-20_001.trec Tamaño 171.9755859375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_002.trec Tamaño 117.2109375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-21-20.trec Tamaño 106.63671875MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20.trec Tamaño 99.283203125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_001.trec Tamaño 78.5732421875MB
+C:\Users\nicoc\Documents\Camtasia\ProyectoLenguajes\ProyectoLenguajes.mp4 Tamaño 51.6611328125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_006.trec Tamaño 50.775390625MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_003.trec Tamaño 46.8740234375MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-24-20_004.trec Tamaño 42.2080078125MB
+C:\Users\nicoc\Documents\Camtasia\Rec 05-25-20_004.trec Tamaño 38.99609375MB
+
+----------------------------
+Numeros de archivos en C:\Users\nicoc\Documents: 382
+Media de tamaño de los archivos 7.644457113056283 MB

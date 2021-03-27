@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<mascota>
+  <documentacion>
+    <id>65</id>
+    <especie>aguila</especie>
+    <raza>pico</raza>
+    <propietario>007</propietario>
+  </documentacion>
+</mascota>
